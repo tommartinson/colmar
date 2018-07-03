@@ -1,0 +1,217 @@
+/*universal*/
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*layout*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.header__container {
+  display: inline-flex;
+  width: 2rem;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.header-img-logo {
+  display: flex;
+}
+
+.header-comapny-colmar {
+  display: flex;
+}
+
+.header-company-academy {
+  display: flex;
+} 
+
+.header-container-menu {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.header-menu {
+  margin: .5rem;
+}
+
+/*Landing Section*/
+
+.landing {
+  display: inline-flex;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.landing-img-container {
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 2rem 1.5rem;
+}
+
+.landing-img-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.landing-content-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 24%;
+  height: 20rem;
+  justify-content: space-around;
+}
+
+.landing-button-container {
+  display: flex;
+  background-color: slategray;
+  max-width: 100%;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.landing-button-content {
+  display: flex;
+  color: white;
+  margin: .5rem 0;
+}
+
+.landing-title {
+  display: flex;
+  font-size: 2rem;
+  word-wrap: wrap;
+  font-weight: bold;
+}
+
+/*Start Learning Section*/
+
+.practicing {
+  display: flex;
+  width: 100%;
+  border: 1px solid green;
+}
+
+.practicing-startlearning-group {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.practicing-img-container {
+  display: flex;
+  width: 100%;
+  margin: 2rem 1.5rem;
+  border: 1px solid green;
+}
+
+.practicing-img-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.practicing-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 1.5rem;
+}
+
+.practicing-heading {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.practicing-paragraph {
+  margin-bottom: 1.5rem;
+}
+
+.callout-group-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.callout-individual-container {
+  display: flex;
+  border: 1px solid green;
+  height: auto;
+}
+
+.callout-individual-img-container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+  border: 1px solid blue;
+}
+
+.callout-img {
+  display: flex;
+  width: 100%;
+  border: 1px solid orange;
+}
+
+.callout-container-group-text {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: space-around;
+}
+
+/*start learning mysterious 2nd section*/
+
+.startlearning {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.startlearning-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.startlearning-group-container {
+  display: inline-block;
+  margin: 2rem 4.5rem;
+  width: auto;
+  border: 1px solid orange;
+}
+
+.startlearning-individual-container {
+  display: inline-block;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 20%;
+}
+
+.startlearning-img-container {
+  display: flex;
+  width: 100%;
+}
+
+.startlearning-img-content {
+  display: flex;
+  width: 100%;
+  object-fit: contain;
+  border: 1px dashed fuchsia;
+  object-position: top;
+}
